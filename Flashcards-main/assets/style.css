@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
 :root {
-    --cor-fundo: #00f4bf;
-    --cor-texto-frente: green;
+    --cor-fundo:rgb(0, 204, 255);
+    --cor-texto-frente:red;
     --cor-fundo-tema: white;
-    --cor-borda: blue;
+    --cor-borda: red;
 
 }
 
@@ -28,7 +28,7 @@ body {
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
     border-radius: 20px;
-    border: purple solid 3px;
+    border: red solid 3px;
 }
 
 .cartao__conteudo {
@@ -70,7 +70,7 @@ body {
 
 .cartao__conteudo__resposta p {
 
-    color: blueviolet;
+    color:red;
     font-weight: 700;
 
 }
